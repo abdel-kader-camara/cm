@@ -1,8 +1,39 @@
 .header-nav-bg{
-    background: #15DEA5;
+    background: #001e47;
 }
 .btn-outline-sucess--soft{
     color: white;
     border: none;
-    background: #0eac7f;
+    background: #001e47;
 }
+.btn-outline-sucess--soft:hover{
+    background: #003681;
+    color: white;
+}
+.text-log{
+    color: #003681;
+}
+.btn-log{
+    background: #0043a0;
+    color: white;
+}
+.btn-outline-log{
+    color: #0043a0;
+    border: 1px solid #0043a0;
+}
+.btn-log:hover, .btn-outline-log:hover{
+    background: #003681;
+    color: white;
+}
+
+.icon-live-clignote{
+    animation-duration: 1.5s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+ }
+ @keyframes clignoter {
+   0%   { opacity:1; }
+   40%   {opacity:0; }
+   100% { opacity:1; }
+ }

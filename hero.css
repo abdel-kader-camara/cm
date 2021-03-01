@@ -1,51 +1,56 @@
 .hero-site{
-    height: 80vh;
-    background-image: url("images/cest-la-vie.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    position: relative;
 }
-.hero-site-container{
+/* {
     background-color: rgba(0, 0, 0, 0.6);
-    height: 80vh;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+} */
+.hero-site-heading{
+    color: #FFF;
+}
+.hero-site-star{
+    color: #003886;
+}
+.hero-site-star-desabled{
+    color: #2b2f33; 
+}
+.btn-site-hero{
+    background-color: #01357e;
+}
+.btn-site-hero:hover, .btn-outline-site-hero:hover{
+    background-color: #002a64;
+    border: 1px solid #01357e;
+}
+.btn-outline-site-hero{
+    border: 1px solid #01357e;
 }
 
-@media screen and (max-width: 756px){
-    .hero-site{
-        height: 65vh;
+@media screen and (max-width: 541px){
+    .btns-hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        top: -4em;
     }
-    .hero-site-container{
-        height: 65vh;
-    }  
+
 }
-@media screen and (max-width: 434px){
-    .hero-site{
-        background-position-x: -19em;
-        height: 80vh;
+@media screen and (max-width: 380px){
+    .btns-hero{
+        top: -2em; 
     }
-    .hero-site-container{
-        height: 80vh;
-    }  
-}
 
+}
+@media screen and (max-width: 287px){
+    .btn-site-hero, .btn-outline-site-hero{
+        font-size: 0.8em;
+    }
+    .btns-hero{
+        top: -1.5em; 
+    }
 
-
-.hero-site-article-h1{
-    color: #b6ffed;
-}
-.hero-site-article-star{
-    color: #0eac7f;
-}
-.hero-site-article-star-desabled{
-    color: #09251d;
-}
-.hero-site-article-text{
-    color: #b6ffed;
-}
-.btn-hero{
-    background: #0eac7f;
-    border: #0eac7f;
-}
-.btn-outline-hero{
-    /* border: #0eac7f 1px solid;
-    color: white; */
 }

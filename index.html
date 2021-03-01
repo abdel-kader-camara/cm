@@ -18,97 +18,61 @@
     <header class="">
       <nav class="navbar navbar-expand-lg navbar-light header-nav-bg">
         <div class="container">
-          <a class="navbar-brand" href="#"><i class="fas fa-2x fa-video"></i></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand text-white" href="#"><i class="fas fa-2x fa-video"></i></a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-9">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Séries
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Genre 1</a></li>
-                  <li><a class="dropdown-item" href="#">Genre 2</a></li>
-                  <li><a class="dropdown-item" href="#">Genre 3</a></li>
-                  <li><a class="dropdown-item" href="#">Genre 4</a></li>
-                  <li><a class="dropdown-item" href="#">Genre ...</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Voir plus...</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Films
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Genre 1</a></li>
-                  <li><a class="dropdown-item" href="#">Genre 2</a></li>
-                  <li><a class="dropdown-item" href="#">Genre 3</a></li>
-                  <li><a class="dropdown-item" href="#">Genre 4</a></li>
-                  <li><a class="dropdown-item" href="#">Genre ...</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Voir plus...</a></li>
-                </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link text-white" href="#">
+                  Séries
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#">
                   théâtres
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Genre 1</a></li>
-                  <li><a class="dropdown-item" href="#">Genre 2</a></li>
-                  <li><a class="dropdown-item" href="#">Genre 3</a></li>
-                  <li><a class="dropdown-item" href="#">Genre 4</a></li>
-                  <li><a class="dropdown-item" href="#">Genre ...</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Voir plus...</a></li>
-                </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link text-white" href="#">
                   Documentaires
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Genre 1</a></li>
-                  <li><a class="dropdown-item" href="#">Genre 2</a></li>
-                  <li><a class="dropdown-item" href="#">Genre 3</a></li>
-                  <li><a class="dropdown-item" href="#">Genre 4</a></li>
-                  <li><a class="dropdown-item" href="#">Genre ...</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Voir plus...</a></li>
-                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Vlogs</a>
+                <a class="nav-link text-white" href="#">Vlogs</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" title="Échangez avec d’autres développeurs en direct avec les LIVE STREAMS" href="#">
-                  Live <i class="fas fa-podcast"></i>
+              <li class="nav-item offset-lg-2">
+                <a class="nav-link text-white" title="Suivez les lives" href="#">
+                  Live <i class="icon-live-clignote fas fa-podcast"></i>
                 </a>
               </li>
             </ul>
-            <div class="row">
-              <form class="d-flex col-8">
+            <div class="d-flex">
+              <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="recherche" aria-label="Search">
-                <button class="btn btn-outline-success btn-outline-sucess--soft" type="submit">Chercher</button>
+                <button class="btn btn-outline-success btn-outline-sucess--soft" type="submit"><i class="fas fa-search"></i></button>
               </form>
-              <div class="dropdown col">
-                <button class="btn btn-outline-success btn-outline-sucess--soft dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <div class="dropdown">
+                <button class="btn  btn-outline-sucess--soft dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                   <i class="fas fa-lock"></i>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#Modal-1" href="#">S'identifier</a></li>
-                  <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#Modal-2" href="#">S'inscrire</a></li>
+                  <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#Modal-1" href="#">S'inscrire</a></li>
+                  <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#Modal-2" href="#">S'identifier</a></li>
                 </ul>
               </div>
               <div class="modal fade" id="Modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title text-success" id="exampleModalLabel">Inscription gratuite</h5>
+                      <h5 class="modal-title text-log" id="exampleModalLabel">Inscription gratuite</h5>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -132,8 +96,8 @@
                       </form>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-success">S'inscrire</button>
-                      <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Annuler</button>
+                      <button type="button" class="btn btn-log">S'inscrire</button>
+                      <button type="button" class="btn btn-outline-success btn-outline-log" data-bs-dismiss="modal">Annuler</button>
                     </div>
                   </div>
                 </div>
@@ -142,7 +106,7 @@
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title text-success" id="exampleModalLabel">Connexion</h5>
+                      <h5 class="modal-title text-log" id="exampleModalLabel">Connexion</h5>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -159,8 +123,8 @@
                       <a href="#" class="text-info">Mot de passe oublié ?</a>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-success">Se connecter</button>
-                      <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Fermer</button>
+                      <button type="button" class="btn btn-log">Se connecter</button>
+                      <button type="button" class="btn btn-outline-log" data-bs-dismiss="modal">Fermer</button>
                     </div>
                   </div>
                 </div>
@@ -173,35 +137,112 @@
     </header>
     <main>
       <section class="hero-site">
-        <div class="hero-site-container">
-          <article class="container pt-5">
-            <h1 class="display-1 hero-site-article-h1">C'est la vie</h1>
-            <p>
-              <i class="hero-site-article-star fas fs-2 fa-star"></i>
-              <i class="hero-site-article-star fas fs-2 fa-star"></i>
-              <i class="hero-site-article-star fas fs-2 fa-star"></i>
-              <i class="hero-site-article-star fas fs-2 fa-star"></i>
-              <i class="hero-site-article-star-desabled fas fs-2 fa-star"></i>
-            </p>
-            <p class="hero-site-article-text text-justify text-white col-lg-8 fs-lg-4">
-              La série suit le quotidien d'un centre de santé à Ratanga, un quartier
-              populaire imaginaire de Dakar. A la maternité, , une sage-femme
-              qui vit une situation difficile dans son couple polygame, mène
-              la vie dure à sa nouvelle collègue Assitan.
-              On rencontre aussi Émadé, mariée à 16 ans, déscolarisée et malmenée par sa belle-mère, et Magar qui a 
-              été contrainte d’épouser son violeur et se retrouve dans une situation de violences conjugales.
-            </p>
-            <div class="mt-4">
-              <button type="button" class="btn btn-outline-success text-white btn-hero mb-2">
-                <i class="fas fa-play"></i>
-                Regarder Maintenant
-              </button>
-              <button type="button" class="btn btn-outline-success text-white btn-outline-hero mb-2">
-                <i class="fas fa-plus"></i>
-                Ajouté à ma liste
-              </button>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="cest-la-vie.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-md-block text-start pb-5">
+                <h1 class="display-1 d-none d-md-block hero-site-heading">C'est la vie</h1>
+                  <p class="d-none d-md-block">
+                    <i class="hero-site-star fas fs-2 fa-star"></i>
+                    <i class="hero-site-star fas fs-2 fa-star"></i>
+                    <i class="hero-site-star fas fs-2 fa-star"></i>
+                    <i class="hero-site-star fas fs-2 fa-star"></i>
+                    <i class="hero-site-star-desabled fas fs-2 fa-star"></i>
+                  </p>
+                  <p class="hero-site-article-text text-justify text-white col-lg-8 fs-lg-4 d-none d-xl-block">
+                    La série suit le quotidien d'un centre de santé à Ratanga, un quartier
+                    populaire imaginaire de Dakar. A la maternité, , une sage-femme
+                    qui vit une situation difficile dans son couple polygame, mène
+                    la vie dure à sa nouvelle collègue Assitan.
+                    On rencontre aussi Émadé, mariée à 16 ans, déscolarisée et malmenée par sa belle-mère, et Magar qui a 
+                    été contrainte d’épouser son violeur et se retrouve dans une situation de violences conjugales.
+                  </p>
+                  <div class="btns-hero mt-4">
+                    <button type="button" class="btn text-white btn-site-hero mb-2">
+                      <i class="fas fa-play"></i>
+                      Regarder Maintenant
+                    </button>
+                    <button type="button" class="btn btn-outline-success text-white btn-outline-site-hero mb-2">
+                      <i class="fas fa-plus"></i>
+                      Ajouté à ma liste
+                    </button>
+                  </div> 
+              </div>
             </div>
-          </article>
+            <div class="carousel-item">
+              <img src="wara.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-md-block text-start pb-5">
+                <h1 class="display-1 d-none d-md-block  hero-site-heading">Wara</h1>
+                  <p class="d-none d-md-block">
+                    <i class="hero-site-star fas fs-2 fa-star"></i>
+                    <i class="hero-site-star fas fs-2 fa-star"></i>
+                    <i class="hero-site-star fas fs-2 fa-star"></i>
+                    <i class="hero-site-star fas fs-2 fa-star"></i>
+                    <i class="hero-site-star-desabled fas fs-2 fa-star"></i>
+                  </p>
+                  <p class="hero-site-article-text text-justify text-white col-lg-8 fs-lg-4 d-none d-xl-block">
+                    Moutari Wara (Issaka Sawadogo) est accepté à sa ville natale Tanasanga grâce
+                    au soutien de Ganka Barry (Souleymane Sèye Ndiaye), devenu ami proche. Sous
+                    condition de ne pas faire de la politique, il est professeur de droit à l'université.
+                    Les étudiants apprécient leur nouveau professeur, attirés par son charisme et sa spécialité
+                    de droit. Ce dernier rencontre une des jeunes étudiantes Aïcha Diallo (France Nancy Goulian).
+                    Leur relation s'avère compliquée…
+                  </p>
+                  <div class="btns-hero mt-4">
+                    <button type="button" class="btn text-white btn-site-hero mb-2">
+                      <i class="fas fa-play"></i>
+                      Regarder Maintenant
+                    </button>
+                    <button type="button" class="btn btn-outline-success text-white btn-outline-site-hero mb-2">
+                      <i class="fas fa-plus"></i>
+                      Ajouté à ma liste
+                    </button>
+                  </div> 
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="raw.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-md-block text-start pb-5">
+                <h1 class="display-1 d-none d-md-block hero-site-heading">Windeck</h1>
+                  <p class="d-none d-md-block">
+                    <i class="hero-site-star fas fs-2 fa-star"></i>
+                    <i class="hero-site-star fas fs-2 fa-star"></i>
+                    <i class="hero-site-star fas fs-2 fa-star"></i>
+                    <i class="hero-site-star fas fs-2 fa-star"></i>
+                    <i class="hhero-site-star-desabled fas fs-2 fa-star"></i>
+                  </p>
+                  <p class="hero-site-article-text text-justify text-white col-lg-8 fs-lg-4 d-none d-xl-block">
+                    Un magazine éditorial, voilà un endroit où le glamour se mélange avec l'ambition,
+                    la puissance et l'argent. Pour assouvir leurs ambitions, hommes et femmes sont prêts
+                    à tout : séduction, trahisons et complots.
+                  </p>
+                  <div class="btns-hero mt-4">
+                    <button type="button" class="btn text-white btn-site-hero mb-2">
+                      <i class="fas fa-play"></i>
+                      Regarder Maintenant
+                    </button>
+                    <button type="button" class="btn btn-outline-success text-white btn-outline-site-hero mb-2">
+                      <i class="fas fa-plus"></i>
+                      Ajouté à ma liste
+                    </button>
+                  </div> 
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </section>
       
@@ -436,87 +477,66 @@
               <!--Grid row-->
               <div class="row">
                 <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase">Séries</h5>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-start">
+                  <h5 class="text-uppercase">Contenu multimédia</h5>
 
                   <ul class="list-unstyled mb-0">
                     <li>
-                      <a href="#!" class="text-white">Catégorie 1</a>
+                      <a href="#!" class="text-white text-decoration-none">Films</a>
                     </li>
                     <li>
-                      <a href="#!" class="text-white">Catégorie 2</a>
+                      <a href="#!" class="text-white text-decoration-none">Séries</a>
                     </li>
                     <li>
-                      <a href="#!" class="text-white">Catégorie 3</a>
+                      <a href="#!" class="text-white text-decoration-none">Théâtres</a>
                     </li>
                     <li>
-                      <a href="#!" class="text-white">Catégorie 4</a>
+                      <a href="#!" class="text-white text-decoration-none">Documentaires</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white text-decoration-none">Vlogs</a>
                     </li>
                   </ul>
                 </div>
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase">Films</h5>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-start">
+                  <h5 class="text-uppercase">A propos de nous</h5>
 
                   <ul class="list-unstyled mb-0">
                     <li>
-                      <a href="#!" class="text-white">Catégorie 1</a>
+                      <a href="#!" class="text-white text-decoration-none">Présentration de l'entreprise</a>
                     </li>
                     <li>
-                      <a href="#!" class="text-white">Catégorie 2</a>
+                      <a href="#!" class="text-white text-decoration-none">Nos solutions</a>
                     </li>
                     <li>
-                      <a href="#!" class="text-white">Catégorie 3</a>
+                      <a href="#!" class="text-white text-decoration-none">Valeurs et missions</a>
                     </li>
                     <li>
-                      <a href="#!" class="text-white">Catégorie 4</a>
+                      <a href="#!" class="text-white text-decoration-none">Conditions</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white text-decoration-none">Politique de confidentialités</a>
                     </li>
                   </ul>
                 </div>
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase">Théâtres</h5>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-start">
+                  <h5 class="text-uppercase">Nous contacter</h5>
 
                   <ul class="list-unstyled mb-0">
                     <li>
-                      <a href="#!" class="text-white">Catégorie 1</a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-white">Catégorie 2</a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-white">Catégorie 3</a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-white">Catégorie 4</a>
+                      <a href="#!" class="text-white text-decoration-none">Cordonnées</a>
                     </li>
                   </ul>
                 </div>
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase">Documentaires</h5>
-
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a href="#!" class="text-white">Catégorie 1</a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-white">Catégorie 2</a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-white">Catégorie 3</a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-white">Catégorie 4</a>
-                    </li>
-                  </ul>
-                </div>
                 <!--Grid column-->
               </div>
               <!--Grid row-->
